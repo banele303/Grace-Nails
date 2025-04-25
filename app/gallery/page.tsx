@@ -10,7 +10,7 @@ const categories = ["All", "Nails", "Facial", "Spa", "Manicure", "Pedicure", "In
 const galleryItems = [
   {
     id: 1,
-    image: "/gallery/nail-art-1.jpg",
+    image: "/nails1.jpg",
     title: "Elegant Nail Art",
     category: "Nails",
     description: "Stunning nail art design with premium gel polish",
@@ -18,7 +18,7 @@ const galleryItems = [
   },
   {
     id: 2,
-    image: "/gallery/facial-1.jpg",
+    image: "/facial1.jpg",
     title: "Radiant Skin",
     category: "Facial",
     description: "Our signature facial treatment results",
@@ -26,7 +26,7 @@ const galleryItems = [
   },
   {
     id: 3,
-    image: "/gallery/spa-1.jpg",
+    image: "/medsf23.jpg",
     title: "Luxury Spa",
     category: "Spa",
     description: "Relaxing spa environment",
@@ -34,7 +34,7 @@ const galleryItems = [
   },
   {
     id: 4,
-    image: "/gallery/manicure-1.jpg",
+    image: "/nails2.jpg",
     title: "Perfect Manicure",
     category: "Manicure",
     description: "Professional manicure with premium products",
@@ -42,7 +42,7 @@ const galleryItems = [
   },
   {
     id: 5,
-    image: "/gallery/pedicure-1.jpg",
+    image: "/perdicures3.jpg",
     title: "Heavenly Feet",
     category: "Pedicure",
     description: "Luxurious pedicure treatment",
@@ -50,13 +50,36 @@ const galleryItems = [
   },
   {
     id: 6,
-    image: "/gallery/interior-1.jpg",
+    image: "/sfmedspa.jpg",
     title: "Our Space",
     category: "Interior",
     description: "Beautiful and relaxing environment",
     featured: false
   },
-  // Add more gallery items here
+  {
+    id: 7,
+    image: "/tooz.jpg",
+    title: "Eyelash Extensions",
+    category: "Beauty",
+    description: "Professional eyelash extension application",
+    featured: false
+  },
+  {
+    id: 8,
+    image: "/medsf2.jpg",
+    title: "Spa Treatment",
+    category: "Spa",
+    description: "Relaxing spa treatment experience",
+    featured: false
+  },
+  {
+    id: 9,
+    image: "/mdsf.jpg",
+    title: "Massage Therapy",
+    category: "Massage",
+    description: "Professional massage therapy session",
+    featured: false
+  }
 ]
 
 export default function GalleryPage() {

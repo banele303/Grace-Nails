@@ -20,7 +20,7 @@ export default function Home() {
 
       {/* Enhanced Services Section */}
       <section id="services" className="py-16 px-4 md:px-8 bg-gradient-to-b from-white to-pink-50">
-        <div className="container mx-auto">
+        <div className="">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -92,7 +92,7 @@ export default function Home() {
 
       {/* About Section */}
       <section id="about" className="py-16 px-4 md:px-8 bg-pink-50">
-        <div className="container mx-auto">
+        <div className="">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -134,7 +134,7 @@ export default function Home() {
 
       {/* Enhanced Contact Section */}
       <section id="contact" className="py-16 px-4 md:px-8 bg-gradient-to-b from-pink-50 to-white">
-        <div className="container mx-auto">
+        <div className="">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -310,7 +310,7 @@ export default function Home() {
 
       {/* Special Offers Section */}
       <section className="py-16 px-4 md:px-8 bg-gradient-to-r from-pink-100 to-purple-100">
-        <div className="container mx-auto">
+        <div className="">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -374,7 +374,7 @@ export default function Home() {
 
       {/* Enhanced Testimonials Section */}
       <section className="py-16 px-4 md:px-8 bg-gradient-to-b from-pink-50 to-purple-50">
-        <div className="container mx-auto">
+        <div className="">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -471,7 +471,7 @@ export default function Home() {
 
       {/* FAQ Section */}
       <section className="py-16 px-4 md:px-8 bg-white">
-        <div className="container mx-auto">
+        <div className="">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
